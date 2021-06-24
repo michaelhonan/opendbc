@@ -156,6 +156,7 @@ BO_ 552 BSD_RCTA: 8 XXX
 BO_ 912 Dashlights: 8 XXX
  SG_ CHECKSUM : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ UNITS : 24|1@1+ (1,0) [0|1] "" XXX
  SG_ ICY_ROAD : 32|2@1+ (1,0) [0|3] "" XXX
  SG_ SEATBELT_FL : 48|1@1+ (1,0) [0|1] "" XXX
  SG_ LEFT_BLINKER : 50|1@1+ (1,0) [0|1] "" XXX
@@ -251,6 +252,7 @@ CM_ SG_ 802 LKAS_Alert "1 = FCW_Cont_Beep, 2 = FCW_Repeated_Beep, 3 = Throttle_M
 CM_ SG_ 802 LKAS_Left_Line_Visible "0 = Off, 1 = White, 2 = Green, 3 = Orange";
 CM_ SG_ 802 LKAS_Dash_State "0 = Disabled, 1 = Ready, 2 = Active";
 CM_ SG_ 802 LKAS_Right_Line_Visible "0 = Off, 1 = White, 2 = Green, 3 = Orange";
+CM_ SG_ 912 UNITS "0 = KPH, 1 = MPH";
 CM_ SG_ 912 ICY_ROAD "1 = DASHLIGHT ON, 2 = WARNING, 3 = OFF";
 CM_ SG_ 940 Highbeam "01 = low beam, 11 = high beam";
 CM_ SG_ 940 FOG_LIGHTS2 "yellow fog light in the dash";
