@@ -211,7 +211,8 @@ BO_ 801 ES_DashStatus: 8 XXX
 BO_ 802 ES_LKAS_State: 8 XXX
  SG_ CHECKSUM : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ LKAS_Alert_Msg : 12|4@1+ (1,0) [0|1] "" XXX
+ SG_ LKAS_Alert_Msg : 12|3@1+ (1,0) [0|7] "" XXX
+ SG_ Signal1 : 15|2@1+ (1,0) [0|3] "" XXX
  SG_ LKAS_ACTIVE : 17|1@1+ (1,0) [0|1] "" XXX
  SG_ LKAS_Dash_State : 18|2@1+ (1,0) [0|2] "" XXX
  SG_ Signal2 : 20|3@1+ (1,0) [0|7] "" XXX
